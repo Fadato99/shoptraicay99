@@ -1,0 +1,99 @@
+
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  #demo img{
+	width: 100%;
+	height: 500px;
+}
+  img {
+	width: 100%;
+	height: auto;
+	margin: auto;
+  }
+  
+  .hinh{text-align:center;
+	}
+  .hinh img{vertical-align:middle;
+}
+
+#footer{
+	background-color: rgb(196, 252, 233);
+}
+
+.logo-store{
+	width: 50%;
+	height: auto;
+	margin-top: 2%;
+}
+
+#footer img {
+    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+	 }
+
+h3 {
+	text-align: center;
+}
+#content-img p{
+	text-align: justify;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 18px;
+	
+}
+.footer-hinh{
+	margin-top: 2%;
+	text-align: center;
+	
+}
+
+@media (max-width: 768px) {
+		#demo img{
+			margin-bottom: 5%;
+		}
+		.footer-hinh{
+			width: 40%;
+			height: auto;
+		}
+		.hinh img{
+			width: 50%;
+		}
+		.row img{
+			width: 50%;
+		}
+
+		 }
+@media (min-width: 768px) and (max-width: 991px) {
+	#footer img{
+		margin-top: 25%;
+	}
+	#demo img{
+		margin-bottom: 5%;
+	}
+	.hinh img{
+		width: 50%;
+	}
+	.row img{
+		width: 50%;
+	}
+ }
+
+@media (min-width: 992px) {
+	#demo img{
+		margin-bottom: 5%;
+	}
+	#footer img{
+		margin-top: 10%;
+	}
+	.hinh img{
+		width: 20%;
+	}
+	.row img{
+		width: 50%;
+	}
+}
